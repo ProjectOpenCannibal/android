@@ -46,7 +46,7 @@
   <project path="device/lge/thunderc" name="ProjectOpenCannibal/android_device_lge_thunderc" revision="gb3" />
   <project path="device/amazon/otter" name="KFire-Android/device-amazon-otter" revision="gingerbread" />
   <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" revision="gingerbread" />
-  <project path="device/htc/inc" name="CyanogenMod/android_device_htc_inc" revision="gingerbread" />
+  <project path="device/htc/inc" name="ProjectOpenCannibal/android_device_htc_inc" revision="gingerbread" />
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" />
   <project path="external/alsa-utils" name="CyanogenMod/android_external_alsa-utils" />
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" />
