@@ -43,8 +43,6 @@
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
-  <project path="device/lge/thunderc" name="ProjectOpenCannibal/android_device_lge_thunderc" revision="gb3" />
-  <project path="device/amazon/otter" name="ProjectOpenCannibal/android_device_amazon_otter" revision="cotr_build" />
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" />
   <project path="external/alsa-utils" name="CyanogenMod/android_external_alsa-utils" />
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" />
