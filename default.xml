@@ -9,9 +9,14 @@
   <remote  name="github"
            fetch="https://github.com/"
            review="review.cyanogenmod.org" />
+           
+  <remote  name="pocgithub"
+           fetch="https://github.com/"
+           review="review.projectopencannibal.org" />
 
   <remote  name="private"
-           fetch="ssh://git@github.com" />     
+           fetch="ssh://git@github.com"
+           review="review.projectopencannibal.org" />     
 
   <default revision="refs/heads/cm-12.1"
            remote="github"
@@ -22,7 +27,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="ProjectOpenCannibal/android" />
+  <project path="android" name="ProjectOpenCannibal/android" remote="pocgithub" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
