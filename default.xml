@@ -11,11 +11,7 @@
            review="review.cyanogenmod.org" />
 
   <remote  name="private"
-           fetch="ssh://git@github.com" />
-           
-  <remote name="bitbucketprivate" 
-           fetch="ssh://git@bitbucket.org/"
-           review="review.projectopencannibal.org" />         
+           fetch="ssh://git@github.com" />     
 
   <default revision="refs/heads/cm-12.1"
            remote="github"
@@ -26,12 +22,12 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="ProjectOpenCannibal/android" remote="bitbucketprivate"/>
+  <project path="android" name="ProjectOpenCannibal/android" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
-  <project path="bootable/recovery" name="ProjectOpenCannibal/poc_bootable_recovery" groups="pdk" remote="bitbucketprivate" />
+  <project path="bootable/recovery" name="ProjectOpenCannibal/poc_bootable_recovery" groups="pdk" remote="private" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
